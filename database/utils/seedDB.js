@@ -6,6 +6,7 @@ const seedDB = async () => {
         lastname: "Chou",
         email: "test1@gmail.com"
     });
+    
     const dummyUser2 = await User.create({
         firstname: "Edison",
         lastname: "Chen",

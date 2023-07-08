@@ -1,7 +1,16 @@
 # test-backend
+Common script to enable automatic server restarts whenever there are changes in the code:
+```
+npm run dev
+```
+
+Common script to start the application or server:
+```
+npm start
+```
 
 
-configDB.js:
+/database/utils/configDB.js:
 ```
 // Database configuration
 
