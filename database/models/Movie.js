@@ -5,7 +5,7 @@ const Movie = db.define("movie", {
 
     title: {
         type: Sequelize.STRING,
-        alloNull: false
+        allowNull: false
     },
 
     releaseDate: {
@@ -14,7 +14,7 @@ const Movie = db.define("movie", {
     
     rate: {
         type: Sequelize.FLOAT
-    }
+    },
 
 });
 
