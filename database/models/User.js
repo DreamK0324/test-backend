@@ -19,7 +19,7 @@ const User = db.define("user", {
 
   imageUrl: {
     type: Sequelize.STRING,
-  }
+  },
 
 
 });
