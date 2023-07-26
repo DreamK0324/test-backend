@@ -13,7 +13,7 @@ const Movie = db.define("movie", {
     },
     
     rate: {
-        type: Sequelize.NUMBER,
+        type: Sequelize.FLOAT,
     },
 
 });
